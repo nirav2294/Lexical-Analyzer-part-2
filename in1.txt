@@ -1,0 +1,13 @@
+(define (arith_example x1 x2 x3 x4 x5)
+  (* (+ x1 x2 x3 x4 x5)
+     (- x1 x2 x3 x4 x5)
+     (/ x1 x2 x3 x4 x5)
+  )
+)
+
+(define (Bool-example b1 b2 b3 b4 b5)
+  (and (or b1 b2 b3 b4 b5)
+       (and b1 b2 b3 b4 b5)
+       (not b3)
+  )
+)

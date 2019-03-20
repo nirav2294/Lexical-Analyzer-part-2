@@ -1,0 +1,127 @@
+0 <fun def> 
+ 1 <header> 
+  2 <fun name> arith_example
+  2 <parameter List> 
+   3 <parameter> x1
+   3 <parameter> x2
+   3 <parameter> x3
+   3 <parameter> x4
+   3 <parameter> x5
+  2 <exp> 
+   3 <list exp> 
+    4 <operator exp> 
+     5 * 
+     5 <exp> 
+       7 <list exp> 
+        8 <operator exp> 
+         9 + 
+         9 <exp> 
+          10 <atom> 
+           11 x1
+         9 <exp> 
+          10 <atom> 
+           11 x2
+         9 <exp> 
+          10 <atom> 
+           11 x3
+         9 <exp> 
+          10 <atom> 
+           11 x4
+         9 <exp> 
+          10 <atom> 
+           11 x5
+     5 <exp> 
+       7 <list exp> 
+        8 <operator exp> 
+         9 - 
+         9 <exp> 
+          10 <atom> 
+           11 x1
+         9 <exp> 
+          10 <atom> 
+           11 x2
+         9 <exp> 
+          10 <atom> 
+           11 x3
+         9 <exp> 
+          10 <atom> 
+           11 x4
+         9 <exp> 
+          10 <atom> 
+           11 x5
+     5 <exp> 
+       7 <list exp> 
+        8 <operator exp> 
+         9 / 
+         9 <exp> 
+          10 <atom> 
+           11 x1
+         9 <exp> 
+          10 <atom> 
+           11 x2
+         9 <exp> 
+          10 <atom> 
+           11 x3
+         9 <exp> 
+          10 <atom> 
+           11 x4
+         9 <exp> 
+          10 <atom> 
+           11 x5
+0 <header> 
+ 1 <fun name> Bool-example
+ 1 <parameter List> 
+  2 <parameter> b1
+  2 <parameter> b2
+  2 <parameter> b3
+  2 <parameter> b4
+  2 <parameter> b5
+ 1 <exp> 
+  2 <list exp> 
+   3 <operator exp> 
+    4 and 
+    4 <exp> 
+      6 <list exp> 
+       7 <operator exp> 
+        8 or 
+        8 <exp> 
+         9 <atom> 
+          10 b1
+        8 <exp> 
+         9 <atom> 
+          10 b2
+        8 <exp> 
+         9 <atom> 
+          10 b3
+        8 <exp> 
+         9 <atom> 
+          10 b4
+        8 <exp> 
+         9 <atom> 
+          10 b5
+    4 <exp> 
+      6 <list exp> 
+       7 <operator exp> 
+        8 and 
+        8 <exp> 
+         9 <atom> 
+          10 b1
+        8 <exp> 
+         9 <atom> 
+          10 b2
+        8 <exp> 
+         9 <atom> 
+          10 b3
+        8 <exp> 
+         9 <atom> 
+          10 b4
+        8 <exp> 
+         9 <atom> 
+          10 b5
+    4 <exp> 
+      6 <list exp> 
+       7 <operator exp> 
+        8 not 
+        8 <exp> 
+         9 <atom> 
+          10 b3
